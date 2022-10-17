@@ -3,7 +3,7 @@
 
 
 
-var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q={city name}&appid={API key}';
+var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q={philadelphia}&appid={0bcbdea2eca98a28bdc8b794c845d739}';
 
 
 
@@ -12,12 +12,5 @@ fetch(requestUrl)
     return response.json();
   })
   .then(function (data) {
-    console.log('Github Repo Issues \n----------');
     console.log(data);
-    for(var i = 0; i < 5; i++){
-      // TODO: Loop through the response
-      console.log(data[i].url);
-      console.log(data[i].user.login);
-      // TODO: Console log each issue's URL and each user's login
-    }
   });
