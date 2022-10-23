@@ -7,8 +7,8 @@ This application solves the problem of searching for the weather but provides a 
 I was able to learn to use api coding to link to my DOM.
 
 ## Usage
+![Screenshot 2022-10-23 192412](https://user-images.githubusercontent.com/84696281/197423156-898a032f-d2c1-4024-b339-f8c7c0f10e9f.png)
 
-![alt text](assets/images/screenshot.png)
 
 
 ## License
